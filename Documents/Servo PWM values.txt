@@ -1,0 +1,85 @@
+Continous servo (with brackets)
+
+280 - 300 = Stalled
+>300 = Anti clockwise
+<280 = Clockwise
+490 = max.speed anti clockwise
+80 = max speed clockwise.
+-----------------------------------
+RDS3225 25kg servo 270 degrees.
+
+93 = SERVOMIN
+467 = SERVOMAX
+
+94 = 0 degrees.
+215 = 90 degrees
+347 = 180 degrees.
+474 = 270 degrees
+----------------------------------
+
+----------------------------------
+RDS3115MG (1) 270 degrees
+
+76 = SERVOMIN
+452 = SERVOMAX
+
+
+76 = 0 degrees
+196 = 90 degrees
+326 = 180 degrees
+452 = 270 degrees
+----------------------------------
+
+----------------------------------
+RDS3115MG (2) 270 degrees
+
+78 = SERVOMIN
+452 = SERVOMAX
+
+
+78 = 0 degrees
+197 = 90 degrees
+320 = 180 degrees
+452 = 270 degrees
+----------------------------------
+DS3218MG 270 degrees (Base)
+
+73 = SERVOMIN
+322 = SERVOMAX 
+
+73 = 0 degrees
+196 = 90 degrees
+322 = 180 degrees
+-----------------------------------
+
+
+NEW SERVO 180 degrees mg995 (Wrist)
+
+80 = SERVOMIN 
+452 = SERVOMAX
+80 = 0 degrees
+270 = 90 degrees
+452 = 180 degrees
+----------------------------------
+
+NEW SERVO 180 degrees mg995 (Gripper)
+
+87 = SERVOMIN 
+459 = SERVOMAX
+87 = 0 degrees
+273 = 90 degrees
+459 = 180 degrees
+
+Grippermin = 45 degrees
+Grippermax = 105 degrees
+----------------------------------
+
+
+
+
+int joint_1[] = {5, 200, 400}; // 1. servo (15kg MG995 - Rotating base)
+int joint_2[] = {0, 73, 322}; // 2. servo (20kg DS3218MG)
+int joint_3[] = {1, 97, 347}; // 3. servo (25kg RDS3225)
+int joint_4[] = {2, 78, 320}; // 4. servo (15kg RDS3115MG)
+int joint_5[] = {3, 98, 464}; // 5. servo (15kg MG995 - Wrist)
+int joint_6[] = {4, 87, 459}; // 6. servo (15kg MG995 - Gripper)
