@@ -9,4 +9,4 @@ Upcoming features:
 - Inverse kinematics
 - Specific listing of parts and costs
 
-![GIF of assembled robot arm rotating its wrist](https://s7.gifyu.com/images/arm-wrist-movement.gif)
+![GIF of assembled robot arm rotating its wrist](https://s7.gifyu.com/images/Robot-Wrist-Rotation.gif)
