@@ -8,3 +8,5 @@ This project will focus on controlling 6 DOF robot arm with inverse kinematics a
 Upcoming features:
 - Inverse kinematics
 - Specific listing of parts and costs
+
+![GIF of assembled robot arm rotating its wrist](https://s7.gifyu.com/images/arm-wrist-movement.gif)
